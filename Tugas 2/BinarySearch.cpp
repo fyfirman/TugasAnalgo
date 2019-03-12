@@ -9,7 +9,6 @@ int BinarySearch(int *x, int y){
     bool found = false;
     while (!found && i<=j){
         mid = (i+j)/2;
-        cout << mid << " ";
         if( x[mid] == y )
             found = true;
         else if( x[mid] < y)
